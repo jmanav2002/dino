@@ -11,7 +11,7 @@ var user = User.create({
     name: 'Chris',
     age: 29,
     weight: 190.5,
-    is_active: true,
+    status: active,
     colors: ['red', 'green', 'blue'],
     documents: [{ id: 1, name: 'A' }, { id: 2, name: 'B' }]
 });
